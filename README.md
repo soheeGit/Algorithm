@@ -7,6 +7,7 @@
 - [Programmers](https://programmers.co.kr/)
 
 ## 📂 Repository 구조
+```
 📁 Algorithm 
 │── 📂 Baekjoon
 │ ├── 📝 README.md (설명 및 분류) 
@@ -21,7 +22,7 @@
 │── 📂 Notes 
 │ ├── 정리.md 
 │ └── ...
-
+```
 ## 📚 문제 풀이 방식
 1. 문제를 선정하여 풀이합니다.
 2. 코드 작성 후 실행 및 테스트를 진행합니다.
