@@ -11,14 +11,9 @@ class Main {
         int num = N/5;
         
         for(int i=0; i<=num; i++) {
-            if(i == 0){
-                if(N%3==0) {
-                    min = Math.min(min, N/3);
-                }
-            } else {
-                if((N-i*5)%3==0) {
-                    min = Math.min(min, i+(N-i*5)/3);
-                }
+            int remain = N-i*5;
+            if(remain%3 == 0) {
+                min = Math.min(min, i+(remain)/3);
             }
         }
         if(min == Integer.MAX_VALUE){
